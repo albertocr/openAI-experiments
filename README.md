@@ -28,10 +28,10 @@ $ source activate universe
 In (universe) env:
 
 ```
-$ conda install pip six libgcc swig
-$ conda install opencv
-$ pip install --upgrade tensorflow
-$ pip install --upgrade tensorflow-gpu
+(universe) $ conda install pip six libgcc swig
+(universe)$ conda install opencv
+(universe)$ pip install --upgrade tensorflow
+(universe)$ pip install --upgrade tensorflow-gpu
 ```
 ```
 $ git clone https://github.com/openai/gym.git
@@ -43,3 +43,10 @@ $ git clone https://github.com/openai/universe.git
 $ cd universe
 $ pip install -e .
 ```
+
+#### Run Examples
+
+```
+$ python openAI-experiments/example.py
+```
+for example: ```python openAI-experiments/CartPole/cartpole-v0.py```
